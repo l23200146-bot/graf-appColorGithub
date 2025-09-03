@@ -1,0 +1,90 @@
+/* Fondo general con gradiente colorado */
+body {
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  font-family: "Segoe UI", Roboto, sans-serif;
+  color: #333;
+}
+
+/* Título centrado con sombra */
+h1 {
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Tarjetas modernas */
+.card {
+  border: none;
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+/* Preview con estilo brillante */
+.preview {
+  min-height: 250px;
+  border-radius: 1rem;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+  transition: all 200ms ease-in-out;
+}
+
+/* Botones estilo colorado */
+.btn {
+  border-radius: 2rem;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón rojo principal */
+.btn-primary {
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #dd2476, #ff512f);
+}
+
+/* Botón gris elegante */
+.btn-outline-secondary {
+  border: 2px solid #6c757d;
+  color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  background: #6c757d;
+  color: white;
+}
+
+/* Botón reiniciar en rojo */
+.btn-outline-danger {
+  border: 2px solid #ff3c3c;
+  color: #ff3c3c;
+}
+
+.btn-outline-danger:hover {
+  background: #ff3c3c;
+  color: white;
+}
+
+/* Color picker personalizado */
+input[type="color"] {
+  cursor: pointer;
+  border-radius: 0.75rem;
+  border: 2px solid #ddd;
+  height: 3rem;
+  width: 100%;
+  padding: 2px;
+  transition: transform 0.2s ease;
+}
+
+input[type="color"]:hover {
+  transform: scale(1.05);
+}
